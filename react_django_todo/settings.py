@@ -25,7 +25,7 @@ SECRET_KEY = "iwr**+*k1mff&y*hhp^ivn5n+cgq+b0l2*g3&(@gnto5s!i)&o"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['reactdjango-todo.herokuapp.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['react-django--todo.herokuapp.com', '127.0.0.1', 'localhost']
 # ALLOWED_HOSTS = []
 
 # Application definition
@@ -136,5 +136,5 @@ STATICFILES_DIRS = [
 
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000",
-    "https://reactdjango-todo.herokuapp.com",
+    "https://react-django--todo.herokuapp.com",
 ]
